@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Javascript Events</title>
+  </head>
+  <body style="background: url(https://images.unsplash.com/photo-1444824775686-4185f172c44b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover">
+
+    <div class="container-fluid" style="opacity: 0.8;">
+      <div class="row  justify-content-center">
+
+        <div class="col-auto">
+
+      <section id="loaded" class="card m-3 text-center">
+        <div class="card-header bg-dark text-light">
+          <h2>Making Music!</h2>
+        </div>
+        <div class="card-body justify-content-center">
+          <button type="button" class="btn btn-dark" id="clapping">
+            clap.wav
+          </button>
+          <button type="button" class="btn btn-dark" id="kicking">
+            kick.wav
+          </button>
+          <button type="button" class="btn btn-dark" id="snareing">
+            snare.wav
+          </button>
+        </div>
+      </section>
+
+    </div>
+    </div>
+
+    
+      <div class="row  justify-content-center">
+
+        <div class="col-auto">
+
+      <footer class="card m-3">
+        <div class="card-body bg-dark text-light">
+          <h3>Credits:</h3>
+          <ul class="list-group">
+            <li class="list-group-item text-dark">Background Photo: Credit due to <a href="https://unsplash.com/photos/JiSNvVs3keU">Dan Stark from Unknown</a></li>
+            <li class="list-group-item text-dark">Shattering Chandelier sound comes from <a href="https://freesound.org/people/matt_ratz/sounds/541601/">Matt_ratz from Unknown</a></li>
+            <li class="list-group-item text-dark">Door Knock sound comes from <a href="https://freesound.org/people/Truss88/sounds/541594/">Truss88 from Unknown</a></li>
+          </ul>
+        </div>
+      </footer>
+
+   
+  </div>
+    </div>
+</div>
+
+
+<div class="d-none">
+  <audio id="clap"><source src="audio/clap.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio id="kick"><source src="audio/kick.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio id="thesnare"><source src="audio/snare.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio id="doorknock"><source src="audio/door_knock.mp3" type="audio/mp3">Your browser does not support the audio element.</audio>
+</div>
+
+    <script src="js/event.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
