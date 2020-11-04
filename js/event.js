@@ -14,7 +14,7 @@ var bodyLoad = document.body;
 
 window.addEventListener('load', function () {
   doorknock.play();
-})
+});
 
 butClapping.addEventListener('click', function () {
   clapping.play();
